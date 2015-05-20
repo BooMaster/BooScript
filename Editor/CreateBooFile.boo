@@ -17,7 +17,6 @@ class [classname] (MonoBehaviour):
     # 型指定  int i = 0;  ->  i as int = 0
     # 配列の宣言  int[] i;  ->  i as (int)
     # 暗黙的型指定  var i = new Vector3();  ->  i = Vector3()
-    # インクリメント  ++i;  ->  i += 1
     # else if  ->  elif
     # || && !  ->  or and not
     # foreach(var item in items){}  ->  for item in items:
