@@ -43,6 +43,16 @@ class [classname] (MonoBehaviour):
     # list = new List[of int]()
     # list.Add(1)
     
+    # ３項演算子(条件演算子)
+    # if(a == 0){
+    #     i = 10;
+    # else{
+    #     i = 20;
+    # }
+    # 
+    # C#  i = a == 0 ? 10 : 20;
+    # Boo i = (10 if a == 0 else 20)
+    
     def Start ():
         pass
     
