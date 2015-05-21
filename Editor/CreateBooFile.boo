@@ -13,10 +13,11 @@ class [classname] (MonoBehaviour):
     # Code Formationg > Boo source code > Convert tabs to spacesにチェックを入れてください
     
     # C#  ->  Boo
-    # 実数  float  ->  single
+    # float型  float  ->  single
     # 型指定  int i = 0;  ->  i as int = 0
     # 配列の宣言  int[] i;  ->  i as (int)
     # 暗黙的型指定  var i = new Vector3();  ->  i = Vector3()
+    # this  ->  self
     # else if  ->  elif
     # || && !  ->  or and not
     # foreach(var item in items){}  ->  for item in items:
