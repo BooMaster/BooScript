@@ -30,18 +30,25 @@ class [classname] (MonoBehaviour):
     # C#  クラスと同じ名前のメソッド
     # Boo constructorというメソッド
     
+    # ref outキーワード
+    # Booはrefキーワードのみ
+    #
+    # def func (ref v as int):
+    #     print(v)
+    #
+    # a as int 初期化せずにfancで表示しているがエラーにならない　intなら最初から0が入ってる
+    # func(a) 関数を呼び出すときにはrefキーワードをつけない
+    
     # 関数の型指定
     # C#  void Update(){}
     # Boo def Update() as void:
     
     # List(T)クラス
     # C#
-    # List<int> list = new List<int>();
-    # var list = new List<int>();
+    # List<int> list = new List<int>();  または  var list = new List<int>();
     # list.Add(1);
     # Boo
-    # list as List[of int] = new List[of int]()
-    # list = new List[of int]()
+    # list as List[of int] = new List[of int]()  または  list = new List[of int]()
     # list.Add(1)
     
     # ３項演算子(条件演算子)
