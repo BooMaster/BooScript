@@ -33,8 +33,8 @@ class [classname] (MonoBehaviour):
     # ref outキーワード
     # Booはrefキーワードのみ
     #
-    # def func (ref v as int):
-    #     print(v)
+    # def func(ref v as int):
+    #     v = v * 2
     #
     # a as int 初期化せずにfancで表示しているがエラーにならない　intなら最初から0が入ってる
     # func(a) 関数を呼び出すときにはrefキーワードをつけない
